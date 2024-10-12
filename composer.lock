@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85ab921caeea5dc3378cbba2732c9c15",
+    "packages": [
+        {
+            "name": "slims/theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/goslims/theme.git",
+                "reference": "22752934373b6980c37cc7f7008d6bd85b198bf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/goslims/theme/zipball/22752934373b6980c37cc7f7008d6bd85b198bf2",
+                "reference": "22752934373b6980c37cc7f7008d6bd85b198bf2",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "theme_helpers.php"
+                ],
+                "psr-4": {
+                    "SLiMS\\Theme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "SDC",
+                    "email": "official@slims.web.id"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/goslims/theme/issues",
+                "source": "https://github.com/goslims/theme/tree/main"
+            },
+            "time": "2024-09-22T06:52:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "slims/theme": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
